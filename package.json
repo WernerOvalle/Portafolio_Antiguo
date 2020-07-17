@@ -1,0 +1,29 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WernerOvalle/Portafolio.git"
+  },
+  "keywords": [
+    "portafolio",
+    "werner",
+    "ovalle"
+  ],
+  "author": "Werner Ovalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WernerOvalle/Portafolio/issues"
+  },
+  "homepage": "https://github.com/WernerOvalle/Portafolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
