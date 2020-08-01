@@ -8,6 +8,7 @@
 	<link rel="icon" href="img/logo.jpg" type="image/png">
 	<title>Werner Portafolio</title>
 	<!-- Bootstrap CSS -->
+	   <!-- build:css css/main.css -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -20,7 +21,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link href="css/style2.css" rel="stylesheet" media="screen">
-	
+	   <!-- endbuild -->
 </head>
 
 <body >
@@ -174,9 +175,16 @@
 						<h3>Frameworks</h3>
 						<div class="skill_main">
 							<div class="skill_item">
-								<h4>ANGULAR <span class="counter">50</span>%</h4>
+								<h4>Angular <span class="counter">50</span>%</h4>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+										aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>Bootstrap / Materialize <span class="counter">80</span>%</h4>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
 										aria-valuemax="100"></div>
 								</div>
 							</div>
@@ -198,7 +206,14 @@
 						<h3>Idiomas</h3>
 						<div class="skill_main">
 							<div class="skill_item">
-								<h4>INGLES <span class="counter">70</span>%</h4>
+								<h4>Español (Nativo) <span class="counter">100</span>%</h4>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+										aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="skill_item">
+								<h4>Ingles <span class="counter">70</span>%</h4>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
 										aria-valuemax="100"></div>
@@ -436,7 +451,7 @@
 	<footer class="footer_area p_120" id="footer">
 		<div class="container">
 			<div class="row footer_inner">
-				<div class="col-lg-5 col-sm-6">
+				<div class="col-lg-5  offset-1 col-sm-6">
 					<aside class="f_widget ab_widget">
 						<div class="f_title">
 							<h3>Contactame</h3>
@@ -482,23 +497,23 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/popper.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/stellar.js"></script>
-	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
-	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-	<script src="vendors/isotope/isotope-min.js"></script>
-	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-	<script src="vendors/counter-up/jquery.counterup.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<!--gmaps Js-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="js/gmaps.min.js"></script>
-	<script src="js/theme.js"></script>
+	 <!-- build:js js/main.js -->
+	 <script src="js/jquery-3.2.1.min.js"></script>
+	 <script src="js/popper.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/stellar.js"></script>
+	 <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	 <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	 <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	 <script src="vendors/isotope/isotope-min.js"></script>
+	 <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	 <script src="js/jquery.ajaxchimp.min.js"></script>
+	 <script src="js/mail-script.js"></script>
+	 <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+	 <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+	 <script src="js/theme.js"></script>
+	 <script src="js/scripts.js"></script>
+   <!-- endbuild -->
 	<script>
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
