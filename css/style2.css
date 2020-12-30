@@ -21,6 +21,10 @@
 html {
   scroll-behavior: smooth; }
 
+#Play {
+  cursor: pointer;
+  color: red; }
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 28px;
