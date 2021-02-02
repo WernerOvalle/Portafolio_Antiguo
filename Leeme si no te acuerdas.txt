@@ -1,0 +1,6 @@
+en la carpeta 
+"copiar en dist " su contenido debe ir en dist la carpeta font debe ir en la carpeta css y la cancion en la raiz
+
+
+si queres ejecutar grunt y no ta acuerdas npm install -g grunt-cli@1.2.0 y npm install grunt@1.0.2 --save-dev
+ deberia funcionar usa el cmd no el powershell
