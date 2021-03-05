@@ -49,6 +49,19 @@ Table of Content:
   margin: 0px;
   padding: 0px; }
 
+
+  /*Google transaltor*/
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+    .goog-te-gadget-simple{
+      position: fixed;
+      z-index: 100;
+    }
+/*Google transaltor*/
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }

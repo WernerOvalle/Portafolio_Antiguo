@@ -1,3 +1,4 @@
+<div id="google_translate_element"></div>
 <div class="noise"></div>
 <div class="overlay"></div>
 <div class="terminal">
@@ -17,7 +18,18 @@
 html {
   min-height: 100%;
 }
-
+ /*Google transaltor*/
+ .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+    .goog-te-gadget-simple{
+      position: fixed;
+      z-index: 100;
+    }
+/*Google transaltor*/
 body {
   box-sizing: border-box;
   height: 100%;
@@ -137,9 +149,20 @@ a::after {
 .errorcode {
   color: white;
 }
-</style><script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_19630fb43b0f6695dbe32e12bf6905f84'
-    });
-</script>
+</style><script type="text/javascript">
+  /*function setCookie(key, value, expiry) {
+    var expires = new Date();
+    expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+    document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+  }*/
+    function googleTranslateElementInit() {
+    //	setCookie('googtrans', '/es/en',1);
+      new google.translate.TranslateElement({
+      pageLanguage: 'es',
+      includedLanguages: 'en,es,de,fr,ja,zh',
+    
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
