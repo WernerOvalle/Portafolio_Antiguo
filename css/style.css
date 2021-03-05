@@ -59,8 +59,12 @@ body {
     }
     .goog-te-gadget-simple{
       position: fixed;
+  
       z-index: 100;
     }
+    @media (max-width: 600px) {
+      .goog-te-gadget-simple {
+        margin-left: 50%; } }
 /*Google transaltor*/
 a {
   text-decoration: none;
