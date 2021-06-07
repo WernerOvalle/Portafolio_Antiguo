@@ -684,8 +684,7 @@ Resume Timeline
     left: 0;
     z-index: -1; }
   .timeline > li .timeline-content:hover {
-    background: #68c3a3;
-    color: #fff; }
+    background: #68c3a3; }
   .timeline > li .timeline-panel::before,
   .timeline > li.timeline-inverted .timeline-panel::before {
     content: "";
