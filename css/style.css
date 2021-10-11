@@ -49,6 +49,12 @@ Table of Content:
   margin: 0px;
   padding: 0px; }
 
+  /* para redimensionar  tamaño de carousel*/
+  
+  #verRentodito2 {
+    width:100%;
+    max-height: 300px !important;
+  }
 
   /*Google transaltor*/
   .goog-te-banner-frame.skiptranslate {
